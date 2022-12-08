@@ -1,0 +1,15 @@
+.nav{
+    width: 1440px;
+    height: 72px;
+    color: #ffffff;
+}
+
+.nav a{
+    width: 71px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+}
+

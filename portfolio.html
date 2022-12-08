@@ -5,96 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="/"><span>Web</span>Studio</a>
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+        <div class="navi">            
+            <nav>
+                <a href="/"><span>Web</span>Studio</a>
+                <ul class="navi-list">
+                    <li class="navi-list__item"><a href="./index.html">Studio</a></li>
+                    <li class="navi-list__item"><a href="">Portfolio</a></li>
+                    <li class="navi-list__item"><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts">
+                <li class="contacts-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-tel"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
-        <section>
-            <h1>navigation btns</h1>
-            <ul>
-                <li>
+        <section class="filter">
+            <h1>filter btns</h1>
+            <ul class="filters">
+                <li class="filters-btn">
                     <button type="button">All</button>
                 </li>
-                <li>
+                <li class="filters-btn">
                     <button type="button">Web Site</button>
                 </li>
-                <li>
+                <li class="filters-btn">
                     <button type="button">App</button>
                 </li>
-                <li>
+                <li class="filters-btn">
                     <button type="button">Design</button>
                 </li>
-                <li>
+                <li class="filters-btn">
                     <button type="button">Marketing</button>
                 </li>
             </ul>
         </section>
-        <section>
-            <h1>Work examples</h1>
-            <ul>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+        <section class="projects">
+            <h1>Project examples</h1>
+            <ul class="project">
+                <li class="project-item">
+                    <a>
+                        <img src="./images/bank_app.jpg" alt="bank application" width="360">
+                        <h2>Banking App Interface Concept</h2>
+                        <h3>App</h3>
+                    </a>
                 </li>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+                <li class="project-item">
+                    <a>
+                        <img src="./images/cashless_pay.jpg" alt="blank picture" width="360">
+                        <h2>Cashless Payment</h2>
+                        <h3>Marketing</h3>
+                    </a>
                 </li>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+                <li class="project-item">
+                    <a>
+                        <img src="./images/meditation_app.jpg" alt="meditation app" width="360">
+                        <h2>Meditation App</h2>
+                        <h3>App</h3>
+                    </a>
                 </li>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+                <li class="project-item">
+                    <a>
+                        <img src="./images/taxi_service.jpg" alt="steering wheel" width="360">
+                        <h2>Taxi Service</h2>
+                        <h3>Marketing</h3>
+                    </a>
                 </li>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+                <li class="project-item">
+                    <a>
+                        <img src="./images/screen_pic.jpg" alt="wallpapers" width="360">
+                        <h2>Screen Illustrations</h2>
+                        <h3>Design</h3>
+                    </a>
                 </li>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+                <li class="project-item">
+                    <a>
+                        <img src="./images/online_course.jpg" alt="smiling girl" width="360">
+                        <h2>Online Courses</h2>
+                        <h3>Marketing</h3>
+                    </a>
                 </li>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+                <li class="project-item">
+                    <a>
+                        <img src="./images/instagram_conc.jpg" alt="instagram layout" width="360">
+                        <h2>Instagram Stories Concept</h2>
+                        <h3>Design</h3>
+                    </a>
                 </li>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+                <li class="project-item">
+                    <a>
+                        <img src="./images/organic_food.jpg" alt="organic food" width="360">
+                        <h2>Organic Food</h2>
+                        <h3>Web Site</h3>
+                    </a>
                 </li>
-                <li>
-                    <img src="" alt="" width="">
-                    <h2></h2>
-                    <h3></h3>
+                <li class="project-item">
+                    <a>
+                        <img src="./images/fresh_coffee.jpg" alt="creamy coffee" width="360">
+                        <h2>Fresh Coffee</h2>
+                        <h3>Web Site</h3>
+                    </a>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <div>
+        <div class="finishing">
             <a href="/"><span>Web</span>Studio</a>
 
             <p>Increase the flow of customers and sales for 
