@@ -79,8 +79,8 @@ body {
     color: #ffffff;
 }
 
-.footer > a:hover,
-.footer > a:focus{
+.logo:hover,
+.logo:focus{
     color: #4d5ae5;
 }
 
