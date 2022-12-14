@@ -38,7 +38,7 @@ body {
 
 
 .filters-btn:hover,
-.filter-btns:focus {
+.filters-btn:focus {
     background-color: var(--main-accent-color);
     color: var(--main-bg-color);
 }
